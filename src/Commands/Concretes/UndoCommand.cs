@@ -1,6 +1,5 @@
 using Core;
 using Core.Interfaces;
-using System.Collections.Generic;
 
 namespace Commands.Concretes.UndoCommand;
 

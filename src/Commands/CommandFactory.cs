@@ -4,8 +4,7 @@ using Commands.Concretes.IncrementCommand;
 using Commands.Concretes.RandAddCommand;
 using Core.Interfaces;
 using Services.Interfaces.IRandomGenerator;
-using System.Collections.Generic;
-using System;
+using Commands.Constant;
 
 namespace Core.Factory;
 
@@ -17,10 +16,11 @@ public class CommandFactory:ICommandFactory
     {
         _commands = new()
         {
-            ["increment"] = () => new IncrementCommand(),
-            ["decrement"] = () => new DecrementCommand(),
-            ["double"] = () => new DoubleCommand(),
-            ["randadd"] = () => new RandAddCommand(randomGenerator)
+            [InputStrings.Help] = () => new HelpCommand(),
+            [InputStrings.Increment] = () => new IncrementCommand(),
+            [InputStrings.Decrement] = () => new DecrementCommand(),
+            [InputStrings.Double] = () => new DoubleCommand(),
+            [InputStrings.RandAdd] = () => new RandAddCommand(randomGenerator)
         };
     }
 

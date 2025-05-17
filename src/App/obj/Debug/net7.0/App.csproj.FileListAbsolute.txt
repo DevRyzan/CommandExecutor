@@ -61,3 +61,4 @@ C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\App\obj\Debug\net7.0\ref
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\App\obj\Debug\net7.0\App.pdb
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\App\obj\Debug\net7.0\App.genruntimeconfig.cache
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\App\obj\Debug\net7.0\ref\App.dll
+C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\App\obj\Debug\net7.0\App.sourcelink.json
