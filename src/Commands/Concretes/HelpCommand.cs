@@ -1,7 +1,7 @@
 ﻿
 using Commands.Constant;
-using Core;
 using Core.Interfaces;
+using Core.Models;
 
 namespace Commands.Concretes;
 

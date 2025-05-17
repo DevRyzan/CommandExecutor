@@ -1,5 +1,5 @@
-using Core;
 using Core.Interfaces;
+using Core.Models;
 using Services.Interfaces.IRandomGenerator;
 using System.Numerics;
 

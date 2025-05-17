@@ -2,15 +2,16 @@
 using Core.Factory;
 using App.Manager;
 using Commands.Constant;
+using Core.Services;
 
 class Program
 {
     static void Main(string[] args)
     {
         var randomGenerator = new RandomGenerator();  
-        var commandFactory = new CommandFactory(randomGenerator);  
-
-        var commandManager = new CommandManager();
+        var commandFactory = new CommandFactory(randomGenerator);
+        var log = new CommandLogger();
+        var commandManager = new CommandManager(log);
 
         Console.Write(Messages.ChooseCommand);
 
