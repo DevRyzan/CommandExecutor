@@ -1,6 +1,7 @@
 ﻿using System;
 using Core.Factory;
 using App.Manager;
+using Commands.Constant;
 
 class Program
 {
@@ -11,30 +12,31 @@ class Program
 
         var commandManager = new CommandManager();
 
-        Console.Write("Choose one command \n-icrement  \n-decrement \n-double \n-randadd \n-undo \n---if you need help and wanna learn command details type 'help'\n");
+        Console.Write(Messages.ChooseCommand);
 
         while (true)
         {
-            Console.WriteLine($"Current result: {commandManager.Result.Result}");
-            
-            Console.Write("Enter a command: ");
+            Console.WriteLine($"{Messages.CurrentResult}{commandManager.Result.Result}");
+
+
+            Console.Write(Messages.EnteraCommand);
             
             string command = Console.ReadLine();
 
-            if (command.ToLower() == "undo")
+            if (command.ToLower() == InputStrings.Undo)
             {
                 commandManager.UndoLastCommand();
                 continue;
             }
 
-            if (command.ToLower() == "exit")
+            if (command.ToLower() == InputStrings.Exit)
                 break;
 
             var commandToExecute = commandFactory.Command(command);
 
             if (commandToExecute == null)
             {
-                Console.WriteLine("Unknown command.");
+                Console.WriteLine(Messages.UnknownCommand);
                 continue;
             }
 

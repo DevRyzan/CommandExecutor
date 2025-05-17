@@ -44,3 +44,4 @@ C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Commands\obj\Debug\net7.
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Commands\obj\Debug\net7.0\refint\Commands.dll
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Commands\obj\Debug\net7.0\Commands.pdb
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Commands\obj\Debug\net7.0\ref\Commands.dll
+C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Commands\obj\Debug\net7.0\Commands.sourcelink.json
