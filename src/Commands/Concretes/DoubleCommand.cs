@@ -1,5 +1,5 @@
-using Core;
 using Core.Interfaces;
+using Core.Models;
 using System.Numerics;
 
 namespace Commands.Concretes.DoubleCommand;

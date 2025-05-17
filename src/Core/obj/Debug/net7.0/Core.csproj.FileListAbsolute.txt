@@ -32,3 +32,4 @@ C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Core\obj\Debug\net7.0\Co
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Core\obj\Debug\net7.0\refint\Core.dll
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Core\obj\Debug\net7.0\Core.pdb
 C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Core\obj\Debug\net7.0\ref\Core.dll
+C:\Users\rezan\Desktop\Projects\CommandExecutor-dev\src\Core\obj\Debug\net7.0\Core.sourcelink.json
