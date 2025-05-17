@@ -1,0 +1,21 @@
+using Core;
+using Core.Interfaces;
+using System.Numerics;
+
+namespace Commands.Concretes.DoubleCommand;
+
+public class DoubleCommand :ICommand
+{  
+    private BigInteger _previousValue;
+
+    public string Name => throw new System.NotImplementedException();
+
+    public void Execute(CommandResult _result)
+    {
+        _previousValue = _result.Result;
+        _result.Result *= 2;
+    }
+
+    public void Undo(CommandResult _result) => _result.Result = _previousValue;
+
+}
