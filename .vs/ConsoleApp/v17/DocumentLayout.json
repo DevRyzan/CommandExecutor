@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\src\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|solutionrelative:src\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3ED6FC7-A2AA-409C-BAEA-AFFAF8576712}|tests\\App.Tests\\App.Tests.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\tests\\app.tests\\comands\\incrementcmdtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3ED6FC7-A2AA-409C-BAEA-AFFAF8576712}|tests\\App.Tests\\App.Tests.csproj|solutionrelative:tests\\app.tests\\comands\\incrementcmdtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\src\\app\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|solutionrelative:src\\app\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3ED6FC7-A2AA-409C-BAEA-AFFAF8576712}|tests\\App.Tests\\App.Tests.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\tests\\app.tests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3ED6FC7-A2AA-409C-BAEA-AFFAF8576712}|tests\\App.Tests\\App.Tests.csproj|solutionrelative:tests\\app.tests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{136240DD-25E7-40C9-A14A-8571926BD9B1}|src\\Core\\Core.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\src\\core\\services\\commandlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{136240DD-25E7-40C9-A14A-8571926BD9B1}|src\\Core\\Core.csproj|solutionrelative:src\\core\\services\\commandlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\src\\app\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|solutionrelative:src\\app\\dependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{136240DD-25E7-40C9-A14A-8571926BD9B1}|src\\Core\\Core.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\src\\core\\interfaces\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{136240DD-25E7-40C9-A14A-8571926BD9B1}|src\\Core\\Core.csproj|solutionrelative:src\\core\\interfaces\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\src\\app\\manager\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|solutionrelative:src\\app\\manager\\commandmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\src\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EA7ECC7-5860-4AE6-8553-D0DB384C7B99}|src\\App\\App.csproj|solutionrelative:src\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A75E3A9-1475-40CD-BCBE-F022498D9A5C}|src\\Commands\\Commands.csproj|c:\\users\\rezan\\desktop\\projects\\commandexecutor-dev\\src\\commands\\concretes\\undocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +62,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 909,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncrementCmdTest.cs",
+              "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\tests\\App.Tests\\Comands\\IncrementCmdTest.cs",
+              "RelativeDocumentMoniker": "tests\\App.Tests\\Comands\\IncrementCmdTest.cs",
+              "ToolTip": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\tests\\App.Tests\\Comands\\IncrementCmdTest.cs",
+              "RelativeToolTip": "tests\\App.Tests\\Comands\\IncrementCmdTest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:09:07.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\tests\\App.Tests\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "tests\\App.Tests\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\tests\\App.Tests\\GlobalUsings.cs",
+              "RelativeToolTip": "tests\\App.Tests\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:07:52.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Core\\Interfaces\\ICommand.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Interfaces\\ICommand.cs",
+              "ToolTip": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Core\\Interfaces\\ICommand.cs",
+              "RelativeToolTip": "src\\Core\\Interfaces\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:00:28.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dependencies.cs",
+              "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\Dependencies.cs",
+              "RelativeDocumentMoniker": "src\\App\\Dependencies.cs",
+              "ToolTip": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\Dependencies.cs",
+              "RelativeToolTip": "src\\App\\Dependencies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:00:22.374Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -60,53 +124,40 @@
               "RelativeDocumentMoniker": "src\\Core\\Services\\CommandLogger.cs",
               "ToolTip": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Core\\Services\\CommandLogger.cs",
               "RelativeToolTip": "src\\Core\\Services\\CommandLogger.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T13:53:31.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CommandManager.cs",
               "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\Manager\\CommandManager.cs",
               "RelativeDocumentMoniker": "src\\App\\Manager\\CommandManager.cs",
               "ToolTip": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\Manager\\CommandManager.cs",
               "RelativeToolTip": "src\\App\\Manager\\CommandManager.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T21:56:51.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\Program.cs",
               "RelativeDocumentMoniker": "src\\App\\Program.cs",
               "ToolTip": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\Program.cs",
               "RelativeToolTip": "src\\App\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAtwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T21:09:46.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dependencies.cs",
-              "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\Dependencies.cs",
-              "RelativeDocumentMoniker": "src\\App\\Dependencies.cs",
-              "ToolTip": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\Dependencies.cs",
-              "RelativeToolTip": "src\\App\\Dependencies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T13:57:30.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "RandAddCommand.cs",
               "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Commands\\Concretes\\RandAddCommand.cs",
               "RelativeDocumentMoniker": "src\\Commands\\Concretes\\RandAddCommand.cs",
@@ -118,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UndoCommand.cs",
               "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Commands\\Concretes\\UndoCommand.cs",
               "RelativeDocumentMoniker": "src\\Commands\\Concretes\\UndoCommand.cs",
@@ -130,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IncrementCommand.cs",
               "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Commands\\Concretes\\IncrementCommand.cs",
               "RelativeDocumentMoniker": "src\\Commands\\Concretes\\IncrementCommand.cs",
@@ -142,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "HelpCommand.cs",
               "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Commands\\Concretes\\HelpCommand.cs",
               "RelativeDocumentMoniker": "src\\Commands\\Concretes\\HelpCommand.cs",
@@ -154,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "DoubleCommand.cs",
               "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Commands\\Concretes\\DoubleCommand.cs",
               "RelativeDocumentMoniker": "src\\Commands\\Concretes\\DoubleCommand.cs",
@@ -166,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "DecrementCommand.cs",
               "DocumentMoniker": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Commands\\Concretes\\DecrementCommand.cs",
               "RelativeDocumentMoniker": "src\\Commands\\Concretes\\DecrementCommand.cs",
