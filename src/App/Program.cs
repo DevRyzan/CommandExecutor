@@ -3,15 +3,27 @@ using Core.Factory;
 using App.Manager;
 using Commands.Constant;
 using Core.Services;
+using Core.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
+using Services.Interfaces.IRandomGenerator;
+using App;
 
 class Program
 {
     static void Main(string[] args)
     {
+        var serviceCollection = new ServiceCollection();
+
+        
+        Dependencies.Configure(serviceCollection);
+        
+        var serviceProvider = serviceCollection.BuildServiceProvider();
+
+        var commandFactory = serviceProvider.GetRequiredService<ICommandFactory>();
+        var commandManager = serviceProvider.GetRequiredService<CommandManager>();
+
         var randomGenerator = new RandomGenerator();  
-        var commandFactory = new CommandFactory(randomGenerator);
         var log = new CommandLogger();
-        var commandManager = new CommandManager(log);
 
         Console.Write(Messages.ChooseCommand);
 

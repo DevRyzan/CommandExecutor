@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UcwoepR6xeM=",
+  "dgSpecHash": "mUFfAc0cN3w=",
   "success": true,
   "projectFilePath": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\App.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rezan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "C:\\Users\\rezan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\rezan\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
   "logs": []
 }
