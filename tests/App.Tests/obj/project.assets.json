@@ -5932,11 +5932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\tests\\App.Tests\\App.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\tests\\App.Tests\\App.Tests.csproj",
       "projectName": "App.Tests",
-      "projectPath": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\tests\\App.Tests\\App.Tests.csproj",
+      "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\tests\\App.Tests\\App.Tests.csproj",
       "packagesPath": "C:\\Users\\rezan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\tests\\App.Tests\\obj\\",
+      "outputPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\tests\\App.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5958,11 +5958,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\App.csproj": {
-              "projectPath": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\App.csproj"
+            "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\App\\App.csproj": {
+              "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\App\\App.csproj"
             },
-            "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Core\\Core.csproj"
+            "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj"
             }
           }
         }

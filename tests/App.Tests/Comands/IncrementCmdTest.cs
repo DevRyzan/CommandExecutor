@@ -11,7 +11,7 @@ public class IncrementCmdTest
     public void ExecuteShouldResultByOne()
     {
         var incrementCmd = new IncrementCommand();
-        var result = new CommandResult { Result = 5 };
+        var result = new CommandResult { Result = 10 };
 
         incrementCmd.Execute(result);
 
@@ -23,7 +23,7 @@ public class IncrementCmdTest
     public void UndoShouldUndoResultByOne()
     {
         var incrementCmd = new IncrementCommand();
-        var result = new CommandResult { Result = 5 };
+        var result = new CommandResult { Result = 10 };
 
         incrementCmd.Undo(result);
 
