@@ -3,7 +3,9 @@ using System;
 using System.Collections.Generic;
 
 namespace Core.Factory;
-
+/// <summary>
+/// stackbased history of executed commands for all undo commands.
+/// </summary>
 public class CommandHistory
 {
     private Stack<ICommand> _executedCommands = new();

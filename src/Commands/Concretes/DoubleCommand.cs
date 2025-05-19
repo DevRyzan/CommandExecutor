@@ -3,7 +3,9 @@ using Core.Models;
 using System.Numerics;
 
 namespace Commands.Concretes.DoubleCommand;
-
+/// <summary>
+/// doubled the result and undo the changes.
+/// </summary>
 public class DoubleCommand :ICommand
 {  
     private BigInteger _previousValue;
