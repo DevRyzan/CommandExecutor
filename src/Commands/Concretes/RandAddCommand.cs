@@ -12,15 +12,17 @@ public class RandAddCommand : ICommand
 
     public RandAddCommand(IRandomGenerator randomGenerator)
     {
+
         _randomGenerator = randomGenerator;
+
     }
 
     public string Name => throw new System.NotImplementedException();
 
-    public void Execute(CommandResult _result){
+    public void Execute(CommandResult  _cmdResult){
         _generatedValue =_randomGenerator.Generate();
-        _result.Result +=_generatedValue; 
+        _cmdResult.Result +=_generatedValue; 
     }
 
-    public void Undo(CommandResult _result) => _result.Result-=_generatedValue;
+    public void Undo(CommandResult _cmdResult) => _cmdResult.Result-=_generatedValue;
 }

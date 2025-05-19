@@ -9,8 +9,8 @@ public class CommandLogger :ICommandLogger
 {
     private static readonly string _logFilePath = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-        "CommandExecutor-Logs",
-        "command-log.json"
+        "CommandExecutorLogs",
+        "commandlog.json"
     );
 
     public void Log(CommandLog log)

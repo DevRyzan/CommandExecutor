@@ -9,19 +9,19 @@ public class CommandManager
 {
     public CommandResult Result { get; set; } = new CommandResult();
 
-    private Stack<ICommand> _commandHistory = new();
-    private readonly ICommandLogger _commandLogger;
-    public CommandManager(ICommandLogger commandLogger)
+    private Stack<ICommand> _cmdHistory = new();
+    private readonly ICommandLogger _cmdLogger;
+    public CommandManager(ICommandLogger cmdLogger)
     {
-        _commandLogger = commandLogger;
+        _cmdLogger = cmdLogger;
         
     }
     public void ExecuteCommand(ICommand command)
     {
         command.Execute(Result);            
-        _commandHistory.Push(command);
+        _cmdHistory.Push(command);
 
-        _commandLogger.Log(new CommandLog
+        _cmdLogger.Log(new CommandLog
         {
             CommandName = command.GetType().Name,
             CurrentValue = Result.Result.ToString(),
@@ -31,9 +31,9 @@ public class CommandManager
 
     public void UndoLastCommand()
     {
-        if (_commandHistory.Count > 0)
+        if (_cmdHistory.Count > 0)
         {
-            var lastCommand = _commandHistory.Pop();
+            var lastCommand = _cmdHistory.Pop();
             lastCommand.Undo(Result);         
         }
     }

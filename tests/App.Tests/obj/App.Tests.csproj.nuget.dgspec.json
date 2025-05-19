@@ -1,43 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\tests\\App.Tests\\App.Tests.csproj": {}
+    "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/tests/App.Tests/App.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\App\\App.csproj": {
+    "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/App/App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\App\\App.csproj",
+        "projectUniqueName": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/App/App.csproj",
         "projectName": "App",
-        "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\App\\App.csproj",
-        "packagesPath": "C:\\Users\\rezan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\App\\obj\\",
+        "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/App/App.csproj",
+        "packagesPath": "/Users/rezansoylemez/.nuget/packages/",
+        "outputPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/App/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rezan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rezansoylemez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Commands\\Commands.csproj": {
-                "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Commands\\Commands.csproj"
+              "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Commands/Commands.csproj": {
+                "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Commands/Commands.csproj"
               },
-              "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj"
+              "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj": {
+                "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj"
               }
             }
           }
@@ -46,13 +39,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -83,41 +70,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Commands\\Commands.csproj": {
+    "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Commands/Commands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Commands\\Commands.csproj",
+        "projectUniqueName": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Commands/Commands.csproj",
         "projectName": "Commands",
-        "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Commands\\Commands.csproj",
-        "packagesPath": "C:\\Users\\rezan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Commands\\obj\\",
+        "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Commands/Commands.csproj",
+        "packagesPath": "/Users/rezansoylemez/.nuget/packages/",
+        "outputPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Commands/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rezan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rezansoylemez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj"
+              "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj": {
+                "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj"
               }
             }
           }
@@ -126,13 +106,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -153,33 +127,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj": {
+    "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj",
+        "projectUniqueName": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\rezan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\obj\\",
+        "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj",
+        "packagesPath": "/Users/rezansoylemez/.nuget/packages/",
+        "outputPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rezan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rezansoylemez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -192,13 +159,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -219,44 +180,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\tests\\App.Tests\\App.Tests.csproj": {
+    "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/tests/App.Tests/App.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\tests\\App.Tests\\App.Tests.csproj",
+        "projectUniqueName": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/tests/App.Tests/App.Tests.csproj",
         "projectName": "App.Tests",
-        "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\tests\\App.Tests\\App.Tests.csproj",
-        "packagesPath": "C:\\Users\\rezan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\tests\\App.Tests\\obj\\",
+        "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/tests/App.Tests/App.Tests.csproj",
+        "packagesPath": "/Users/rezansoylemez/.nuget/packages/",
+        "outputPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/tests/App.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\rezan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rezansoylemez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\App\\App.csproj": {
-                "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\App\\App.csproj"
+              "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/App/App.csproj": {
+                "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/App/App.csproj"
               },
-              "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\rezan\\Source\\Repos\\CommandExecutor\\src\\Core\\Core.csproj"
+              "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj": {
+                "projectPath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Core/Core.csproj"
               }
             }
           }
@@ -265,13 +219,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -322,7 +270,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }

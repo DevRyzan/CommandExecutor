@@ -8,11 +8,12 @@ public class DoubleCommand :ICommand
 {  
     private BigInteger _previousValue;
 
-    public string Name => throw new System.NotImplementedException();
+
 
     public void Execute(CommandResult _result)
     {
         _previousValue = _result.Result;
+        
         _result.Result *= 2;
     }
 

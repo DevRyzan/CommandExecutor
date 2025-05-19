@@ -12,8 +12,5 @@ public class CommandHistory
 
     public ICommand? Pop() => _executedCommands.Count > 0 ? _executedCommands.Pop() : null;
 
-    public bool CanUndo()
-    {
-        return _executedCommands.Count > 0;
-    }
+    public bool CanUndo() => _executedCommands.Count > 0;
 }

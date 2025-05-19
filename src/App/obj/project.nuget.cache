@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mUFfAc0cN3w=",
+  "dgSpecHash": "3M1CBzPzXyzC52ZigfTGrtJ6daL1I0KodkFSh3Yd1xCGe+GSSFGx6Uoiw66OdxagChagmYqhPVP1v+NiQfuD+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\App\\App.csproj",
+  "projectFilePath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/App/App.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rezan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
-    "C:\\Users\\rezan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
-    "C:\\Users\\rezan\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+    "/Users/rezansoylemez/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.5/microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "/Users/rezansoylemez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.5/microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "/Users/rezansoylemez/.nuget/packages/system.commandline/2.0.0-beta4.22272.1/system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
   ],
   "logs": []
 }
