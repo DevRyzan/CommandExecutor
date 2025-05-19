@@ -3,7 +3,9 @@ using System;
 using System.Numerics;
 
 namespace Core.Factory;
-
+/// <summary>
+/// Generates a random BigInteger values using byte arrays.
+/// </summary>
 public class RandomGenerator : IRandomGenerator
 {
     private readonly Random _random;

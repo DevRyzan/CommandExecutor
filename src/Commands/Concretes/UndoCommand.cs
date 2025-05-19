@@ -2,7 +2,9 @@ using Core.Interfaces;
 using Core.Models;
 
 namespace Commands.Concretes.UndoCommand;
-
+/// <summary>
+/// undoes the command back. 
+/// </summary>
 public class UndoCommand: ICommand
 {
     private readonly Stack<ICommand> _commandStack;

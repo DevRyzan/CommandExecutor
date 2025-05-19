@@ -8,6 +8,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Services.Interfaces.IRandomGenerator;
 using App;
 
+/// <summary>
+/// The App entry point  and sets up DI and handles all commands execution loop.
+/// </summary>
 class Program
 {
     static void Main(string[] args)

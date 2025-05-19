@@ -5,8 +5,12 @@ using Core.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Services.Interfaces.IRandomGenerator;
 
-namespace App;
 
+
+namespace App;
+/// <summary>
+/// Configures and registers dependencies for DI container used from program.cs
+/// </summary>
 public static class Dependencies
 {
     public static void Configure(IServiceCollection services)

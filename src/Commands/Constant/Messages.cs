@@ -5,7 +5,7 @@ public static class Messages
     //Messages
     public const string EnteraCommand = "Enter a command: ";
     public const string CurrentResult = "Current Result: ";
-    public const string ChooseCommand = "Choose one command \n-icrement  \n-decrement \n-double \n-randadd \n-undo \n---if you need help and wanna learn command details type 'help'\n";
+    public const string ChooseCommand = "Choose one command \n-icrement  \n-decrement \n-double \n-randadd \n-undo \n---for command details type 'help'\n";
     public const string UnknownCommand = "Unknown command.";
 
 
@@ -13,7 +13,7 @@ public static class Messages
 
 
     //Help Command Messages
-    public const string AvailableCommands = "Available  Commadns:";
+    public const string AvailableCommands = "Available  Commands:";
     public const string IncrementMessage = "1. increment - Increases the result by 1";
     public const string DecrementMessage = "2. decrement - Decreases the result by 1";
     public const string DoubleMessage = "3. double - Doubles the current result";

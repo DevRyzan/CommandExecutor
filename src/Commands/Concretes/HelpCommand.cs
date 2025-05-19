@@ -4,7 +4,9 @@ using Core.Interfaces;
 using Core.Models;
 
 namespace Commands.Concretes;
-
+/// <summary>
+/// Information command "help" for all commands.
+/// </summary>
 public class HelpCommand : ICommand
 {
 

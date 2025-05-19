@@ -7,7 +7,9 @@ using Services.Interfaces.IRandomGenerator;
 using Commands.Constant;
 
 namespace Core.Factory;
-
+/// <summary>
+/// Factory class working as a resolving ICommand instances based on input strings.
+/// </summary>
 public class CommandFactory:ICommandFactory
 {
     private readonly Dictionary<string, Func<ICommand>> _commands;

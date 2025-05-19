@@ -3,7 +3,9 @@ using Core.Models;
 using System.Text.Json;
 
 namespace Core.Services;
-
+/// <summary>
+/// Logs executed commands to a JSON file on the desktop
+/// </summary>
 public class CommandLogger :ICommandLogger
 
 {

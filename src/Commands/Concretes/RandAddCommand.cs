@@ -4,7 +4,9 @@ using Services.Interfaces.IRandomGenerator;
 using System.Numerics;
 
 namespace Commands.Concretes.RandAddCommand;
-
+/// <summary>
+///  Generating bigInteger value.
+/// </summary>
 public class RandAddCommand : ICommand
 { 
     private readonly IRandomGenerator _randomGenerator;
