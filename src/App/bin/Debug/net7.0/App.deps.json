@@ -90,18 +90,12 @@
           "Core": "1.0.0"
         },
         "runtime": {
-          "Commands.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Commands.dll": {}
         }
       },
       "Core/1.0.0": {
         "runtime": {
-          "Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Core.dll": {}
         }
       }
     }

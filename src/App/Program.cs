@@ -12,15 +12,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        var serviceCollection = new ServiceCollection();
+        var serviceCollectionDI = new ServiceCollection();
 
         
-        Dependencies.Configure(serviceCollection);
+        Dependencies.Configure(serviceCollectionDI);
         
-        var serviceProvider = serviceCollection.BuildServiceProvider();
+        var serviceProvider = serviceCollectionDI.BuildServiceProvider();
 
-        var commandFactory = serviceProvider.GetRequiredService<ICommandFactory>();
-        var commandManager = serviceProvider.GetRequiredService<CommandManager>();
+        var cmdFactory = serviceProvider.GetRequiredService<ICommandFactory>();
+        var cmdManager = serviceProvider.GetRequiredService<CommandManager>();
 
         var randomGenerator = new RandomGenerator();  
         var log = new CommandLogger();
@@ -29,31 +29,31 @@ class Program
 
         while (true)
         {
-            Console.WriteLine($"{Messages.CurrentResult}{commandManager.Result.Result}");
+            Console.WriteLine($"{Messages.CurrentResult}{cmdManager.Result.Result}");
 
 
             Console.Write(Messages.EnteraCommand);
             
-            string command = Console.ReadLine();
+            string executedCmd = Console.ReadLine();
 
-            if (command.ToLower() == InputStrings.Undo)
+            if (executedCmd.ToLower() == InputStrings.Undo)
             {
-                commandManager.UndoLastCommand();
+                cmdManager.UndoLastCommand();
                 continue;
             }
 
-            if (command.ToLower() == InputStrings.Exit)
+            if (executedCmd.ToLower() == InputStrings.Exit)
                 break;
 
-            var commandToExecute = commandFactory.Command(command);
+            var commandExecute = cmdFactory.Command(executedCmd);
 
-            if (commandToExecute == null)
+            if (commandExecute == null)
             {
                 Console.WriteLine(Messages.UnknownCommand);
                 continue;
             }
 
-            commandManager.ExecuteCommand(commandToExecute);
+            cmdManager.ExecuteCommand(commandExecute);
         }
     }
 }

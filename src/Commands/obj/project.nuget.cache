@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oy3VJyZCpbI=",
+  "dgSpecHash": "I4Afds+jkA0LcPYV93QpnYKTbMquxM8fF9w7Lyr+GIUr+Q1m3W3H+A+F/mcdE7bjzTSqlQhSl+vGbnLogARVQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rezan\\Desktop\\Projects\\CommandExecutor-dev\\src\\Commands\\Commands.csproj",
+  "projectFilePath": "/Users/rezansoylemez/Desktop/DotNetProject/CommandExecutor/src/Commands/Commands.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
